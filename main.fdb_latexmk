@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1717798943.3416 "/Users/thevedicdev/Developer/resume/main.tex" "main.pdf" "main" 1717798944.09046 0
+["pdflatex"] 1717799466.50926 "/Users/thevedicdev/Developer/resume/main.tex" "main.pdf" "main" 1717799467.41875 0
   "/Users/thevedicdev/Developer/resume/main.tex" 1717774649.85821 493 978348ea58b42a0495a6876d5d564068 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1698694482 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -105,8 +105,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717757701.01146 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717757673 8221449 50f8bec8d5134c35f2569aaa27322254 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1717798944.01647 882 c3184358825771ad6451b8347ea1a0e8 "pdflatex"
-  "main.out" 1717798944.01744 425 fa93b290ecc2216bb3e47c7c5b9d6614 "pdflatex"
+  "main.aux" 1717799467.33948 882 c3184358825771ad6451b8347ea1a0e8 "pdflatex"
+  "main.out" 1717799467.34013 425 fa93b290ecc2216bb3e47c7c5b9d6614 "pdflatex"
   "main.tex" 1717774649.85821 493 978348ea58b42a0495a6876d5d564068 ""
   "resume/certifications/azure.tex" 1717774177.00889 593 e105fb2feb57c210febc9130649fe49d ""
   "resume/certifications/certifications.tex" 1717790350.29205 254 c4723d131d73be4af7bb8bac3f883e3f ""
