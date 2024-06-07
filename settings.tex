@@ -12,7 +12,13 @@
 \usepackage{layout} % For visualizing page layout parameters
 \usepackage{fontawesome}
 \usepackage{xcolor}
-\usepackage{hyperref}
+\usepackage[breaklinks]{hyperref} % To handle URL breaks
+\usepackage{parskip} % For better paragraph spacing
+\usepackage{xcolor} % For text color
+\usepackage{graphicx} % For graphics
+% Adjust badness and fuzz settings
+\hfuzz=1.5pt % Tolerate slight overfull boxes
+\hbadness=10000 % Suppress underfull hbox warnings below this badness level
 % Set page padding to 10pt
 \geometry{
     left=20pt, % Set left margin to 10pt
@@ -23,7 +29,7 @@
 % Global font sizes
 \newcommand{\heading}[1]{{\fontsize{30}{24}\selectfont\bfseries #1}}
 \newcommand{\subheading}[1]{{\fontsize{10}{12}\selectfont #1}}
-\titleformat{\section}[block]{\fontsize{15}{12}\selectfont\bfseries}{}{0pt}{}
+\titleformat{\section}[block]{\fontsize{14}{12}\selectfont\bfseries}{}{0pt}{}
 \newcommand{\content}[1]{{\fontsize{12}{12}\selectfont #1}}
 
 
