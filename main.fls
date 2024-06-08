@@ -244,27 +244,42 @@ INPUT ./resume/experience/experience.tex
 INPUT ./resume/experience/experience.tex
 INPUT ./resume/experience/experience.tex
 INPUT resume/experience/experience.tex
-INPUT ./resume/experience/real/securian_canada.tex
-INPUT ./resume/experience/real/securian_canada.tex
-INPUT resume/experience/real/securian_canada.tex
-INPUT ./resume/experience/real/securian canada/ori.tex
-INPUT ./resume/experience/real/securian canada/ori.tex
-INPUT resume/experience/real/securian canada/ori.tex
+INPUT ./resume/experience/professional/securian_canada.tex
+INPUT ./resume/experience/professional/securian_canada.tex
+INPUT resume/experience/professional/securian_canada.tex
+INPUT ./resume/experience/professional/securian canada/ori.tex
+INPUT ./resume/experience/professional/securian canada/ori.tex
+INPUT resume/experience/professional/securian canada/ori.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT ./resume/experience/real/securian canada/nova.tex
-INPUT ./resume/experience/real/securian canada/nova.tex
-INPUT resume/experience/real/securian canada/nova.tex
-INPUT ./resume/experience/real/securian canada/creditor_insurance_discovery_tool.tex
-INPUT ./resume/experience/real/securian canada/creditor_insurance_discovery_tool.tex
-INPUT resume/experience/real/securian canada/creditor_insurance_discovery_tool.tex
+INPUT ./resume/experience/professional/securian canada/nova.tex
+INPUT ./resume/experience/professional/securian canada/nova.tex
+INPUT resume/experience/professional/securian canada/nova.tex
+INPUT ./resume/experience/professional/securian canada/creditor_insurance_discovery_tool.tex
+INPUT ./resume/experience/professional/securian canada/creditor_insurance_discovery_tool.tex
+INPUT resume/experience/professional/securian canada/creditor_insurance_discovery_tool.tex
+INPUT ./resume/experience/freelance/one.tex
+INPUT ./resume/experience/freelance/one.tex
+INPUT resume/experience/freelance/one.tex
+INPUT ./resume/education/education.tex
+INPUT ./resume/education/education.tex
+INPUT ./resume/education/education.tex
+INPUT ./resume/education/education.tex
+INPUT resume/education/education.tex
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
+INPUT ./resume/education/diploma.tex
+INPUT ./resume/education/diploma.tex
+INPUT resume/education/diploma.tex
+INPUT ./resume/hobbies_interests.tex
+INPUT ./resume/hobbies_interests.tex
+INPUT ./resume/hobbies_interests.tex
+INPUT ./resume/hobbies_interests.tex
+INPUT resume/hobbies_interests.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

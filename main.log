@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  7 JUN 2024 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  7 JUN 2024 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,56 +487,69 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.0pt on input line 1.
-) (./resume/certifications/certifications.tex (./resume/certifications/azure.tex
+) (./resume/certifications/certifications.tex
+Overfull \hbox (6.99988pt too wide) in paragraph at lines 2--1
+   []
+ []
+
+(./resume/certifications/azure.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
-)) (./resume/skills/skills.tex (./resume/skills/frontend_skills.tex)) (./resume/experience/experience.tex (./resume/experience/real/securian_canada.tex (./resume/experience/real/securian canada/ori.tex
+)) (./resume/skills/skills.tex (./resume/skills/frontend_skills.tex)) (./resume/experience/experience.tex (./resume/experience/professional/securian_canada.tex (./resume/experience/professional/securian canada/ori.tex
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 5.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
-) (./resume/experience/real/securian canada/nova.tex) (./resume/experience/real/securian canada/creditor_insurance_discovery_tool.tex)))
-Overfull \hbox (6.49988pt too wide) in paragraph at lines 2--16
+) (./resume/experience/professional/securian canada/nova.tex) (./resume/experience/professional/securian canada/creditor_insurance_discovery_tool.tex))
+Overfull \hbox (6.49988pt too wide) in paragraph at lines 2--3
 |   []
  []
 
 
-Overfull \hbox (6.49988pt too wide) in paragraph at lines 2--16
+Overfull \hbox (6.49988pt too wide) in paragraph at lines 2--3
 |   []
  []
 
 
-Overfull \hbox (11.49988pt too wide) in paragraph at lines 2--16
+Overfull \hbox (6.49988pt too wide) in paragraph at lines 2--3
 |   []
+ []
+
+(./resume/experience/freelance/one.tex)) (./resume/education/education.tex
+Overfull \hbox (6.99988pt too wide) in paragraph at lines 4--1
+   []
  []
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (./main.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (./resume/education/diploma.tex)) (./resume/hobbies_interests.tex
+Overfull \hbox (6.99988pt too wide) in paragraph at lines 2--1
+   []
+ []
+
+) [2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FA93B290ECC2216BB3E47C7C5B9D6614;425.
+(rerunfilecheck)             Checksum: 99017A1BC3319987DF26015AF3320176;820.
  ) 
 Here is how much of TeX's memory you used:
- 16684 strings out of 474116
- 272559 string characters out of 5743683
- 1959187 words of memory out of 5000000
- 38736 multiletter control sequences out of 15000+600000
- 581745 words of font info for 70 fonts, out of 8000000 for 9000
+ 16722 strings out of 474116
+ 273662 string characters out of 5743683
+ 1960187 words of memory out of 5000000
+ 38748 multiletter control sequences out of 15000+600000
+ 579188 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,96p,1229b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,96p,1229b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (1 page, 109573 bytes).
+Output written on main.pdf (2 pages, 112447 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 17953 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 15929 words of extra memory for PDF output out of 17280 (max. 10000000)
 
