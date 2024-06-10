@@ -1,0 +1,254 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{textcomp}
+\usepackage{newtxtext}
+\usepackage{titlesec}
+\usepackage{layout}
+\usepackage{fontawesome}
+\usepackage[breaklinks]{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\geometry{
+    left=20pt,
+    right=20pt,
+    top=20pt,
+    bottom=20pt,
+}
+
+%-------------------------------------------------------------------------------
+%                Global Fonts
+%-------------------------------------------------------------------------------
+\newcommand{\fontExtraLargeBold}[1]{{\fontsize{30}{36}\selectfont\bfseries #1}}
+\newcommand{\fontExtraLargeRegular}[1]{{\fontsize{30}{36}\selectfont #1}}
+\newcommand{\fontExtraLargeItalics}[1]{{\fontsize{30}{36}\selectfont\itshape #1}}
+
+\newcommand{\fontLargeBold}[1]{{\fontsize{20}{24}\selectfont\bfseries #1}}
+\newcommand{\fontLargeRegular}[1]{{\fontsize{20}{24}\selectfont #1}}
+\newcommand{\fontLargeItalics}[1]{{\fontsize{20}{24}\selectfont\itshape #1}}
+
+\newcommand{\fontMediumBold}[1]{{\fontsize{15}{18}\selectfont\bfseries #1}}
+\newcommand{\fontMediumRegular}[1]{{\fontsize{15}{18}\selectfont #1}}
+\newcommand{\fontMediumItalics}[1]{{\fontsize{15}{18}\selectfont\itshape #1}}
+
+\newcommand{\fontSmallBold}[1]{{\fontsize{10}{12}\selectfont\bfseries #1}}
+\newcommand{\fontSmallRegular}[1]{{\fontsize{10}{0pt}\selectfont #1}}
+\newcommand{\fontSmallItalics}[1]{{\fontsize{10}{12}\selectfont\itshape #1}}
+
+\newcommand{\fontExtraSmallBold}[1]{{\fontsize{8}{10}\selectfont\bfseries #1}}
+\newcommand{\fontExtraSmallRegular}[1]{{\fontsize{8}{10}\selectfont #1}}
+\newcommand{\fontExtraSmallItalics}[1]{{\fontsize{8}{10}\selectfont\itshape #1}}
+
+
+\definecolor{sectionheadercolor}{RGB}{30, 144, 255}
+
+
+
+% Gray-scale colors
+\definecolor{white}{HTML}{FFFFFF}
+\definecolor{black}{HTML}{000000}
+\definecolor{darkgray}{HTML}{333333}
+\definecolor{gray}{HTML}{414141} %414141
+\definecolor{lightgray}{HTML}{999999}
+% Basic colors
+\definecolor{green}{HTML}{C2E15F}
+\definecolor{orange}{HTML}{FDA333}
+\definecolor{purple}{HTML}{D3A4F9}
+\definecolor{red}{HTML}{FB4485}
+\definecolor{blue}{HTML}{4472c4}
+% Text colors
+\definecolor{darktext}{HTML}{414141} % Highlighted grey headings
+\colorlet{text}{black}
+\colorlet{graytext}{gray}
+\colorlet{lighttext}{black}
+\colorlet{sectiondivider}{gray}
+% russell colors
+\definecolor{russell-emerald}{HTML}{00A388}
+\definecolor{russell-skyblue}{HTML}{0395DE}
+\definecolor{russell-red}{HTML}{DC3522}
+\definecolor{russell-purple}{HTML}{A32CC4}
+\definecolor{russell-pink}{HTML}{EF4089}
+\definecolor{russell-orange}{HTML}{FF6138}
+\definecolor{russell-nephritis}{HTML}{27AE60}
+\definecolor{russell-concrete}{HTML}{95A5A6}
+\definecolor{russell-darknight}{HTML}{131A28}
+\definecolor{russell-black}{HTML}{000000}
+\colorlet{russell}{russell-red}
+
+% Boolean value to switch section color highlighting
+\newbool{acvSectionColorHighlight}
+\setbool{acvSectionColorHighlight}{true}
+
+% russell section color
+\def\@sectioncolor#1#2#3{%
+  \ifbool{acvSectionColorHighlight}{{\color{russell}#1#2#3}}{#1#2#3}%
+}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+%-------------------------------------------------------------------------------
+%                Configuration for colors
+%-------------------------------------------------------------------------------
+
+
+
+
+\begin{document}
+%-------------------------------------------------------------------------------
+% HEADER
+%-------------------------------------------------------------------------------
+\begin{center}
+  \fontLargeBold{NISHANT KANT OJHA} \\
+  \fontExtraSmallRegular{\faEnvelope\hspace{2pt} nishantkantojha@outlook.com $|$ 	\hspace{2pt}\faGithub\hspace{2pt} \href{https://github.com/thevedicdeveloper}{@vedicdeveloper} $|$ \hspace{2pt}\faMapMarker\hspace{2pt} \href{https://maps.app.goo.gl/3KBkGrLHVfiQRCgh7}{Toronto, Ontario}}
+\end{center}  
+
+
+%-------------------------------------------------------------------------------
+% PROFESSIONAL SUMMARY
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{PROFESSIONAL SUMMARY {\color{black}\hrulefill}}}{PROFESSIONAL SUMMARY}}\vspace{5pt}\\
+\fontSmallRegular{With over 5 years of experience as a Frontend Developer specializing in Angular, I bring a mix of tech know-how and problem-solving skills to projects. From making user interfaces easy to use to boosting performance, I love tackling challenges and finding smart solutions. I keep up with the latest in Angular to deliver top-notch work. With a track record of success and a drive to keep improving, I'm ready to make a big difference on any frontend team.}
+
+
+%-------------------------------------------------------------------------------
+% CERTIFICATIONS
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{CERTIFICATIONS {\color{black}\hrulefill}}}{CERTIFICATIONS}}\vspace{5pt}\\
+\fontSmallRegular{\textbf{AZ-104} : Microsoft Azure Administration Associate}  \hfill{Jul, 2022} \\
+\fontSmallRegular{\textbf{AZ-204} : Microsoft Azure Developer Associate} \hfill{Jun, 2022} \\
+\fontSmallRegular{\textbf{AZ-900} : Microsoft Azure Fundamentals}  \hfill{Mar, 2022} \\
+\fontSmallRegular{\textbf{DP-900} : Microsoft Azure Data Fundamentals}  \hfill{Mar, 2022}
+
+
+%-------------------------------------------------------------------------------
+% SKILLS
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{SKILLS \textcolor{black}{\hrulefill}}}{SKILLS}}\vspace{5pt}
+\setlength{\tabcolsep}{0pt}
+\begin{tabular}{@{}p{0.23\linewidth}@{\hspace{5pt}}p{0.75\linewidth}@{}}
+\textbf{Languages} & {C\#, TypeScript, JavaScript, Python, GraphQL, Bash, C, C++, Java, Groovy, LaTeX, Yaml} \\
+\textbf{Frameworks \& Runtime Envs} & {\href{https://angular.io/}{Angular}, \href{https://dotnet.microsoft.com/apps/aspnet}{ASP.NET Core}, \href{https://reactjs.org/}{React}, Node.js, CLR, Containerd, JRE} \\
+\textbf{Angular Libraries} & {Microsoft Authentication Library (MSAL), Angular Fire, Angular Google Maps, Angular Google Pay, Angular CDK, Angular Material, Angular YouTube, i18n, NgRx, AG Grid, ngx-translate, ngx-mask, \href{https://swimlane.github.io/ngx-charts/}{ngx-charts}} \\
+\textbf{UI Libraries} & {\href{https://getbootstrap.com/}{Bootstrap}, \href{https://material.angular.io/}{Angular Material}, \href{https://tailwindcss.com/}{Tailwind CSS}}\\
+\textbf{PDF's \& Charting Libraries} & {\href{https://www.chartjs.org/}{chart.js}, \href{https://d3js.org/}{D3.js}, \href{https://mozilla.github.io/pdf.js/}{pdf.js},  \href{https://github.com/parallax/jsPDF}{jsPDF}}\\
+\textbf{Testing Libraries} & {Karma, Protractor, Jest, Cypress, Mocha, Jasmine} \\
+\textbf{Other Libraries} & {\href{https://rxjs.dev/}{RxJs}. Storybook, Three.js, leaflet.js, SendGrid, \href{https://lodash.com/}{Lodash},  \href{https://momentjs.com/}{Moment}, webpack, eslint, underscore.js}\\
+\textbf{Database} & {MSSQL, MySQL, PostgreSQL, SQLite, MongoDB, Redis, Firebase, Supabase, Appwrite, Local \& Session Storage, IndexedDB} \\
+\textbf{Azure Services} & {App Service, Static Web Apps, Functions, Blob Storage, Azure CDN, Azure API Management, Key Vault, Application Insights, Active Directory, Docker, Kubernetes, Ansible, GitHub Actions, Azure DevOps, JFrog, Splunk} \\
+\textbf{Development Tools} & {Figma, Postman, Visual Paradigm, Matrix, Putty, WinScp, Powershell, Git, GitHub, Jira Work Management, Confluence, Vim, Neo Vim} \\
+\end{tabular}\\
+
+
+%-------------------------------------------------------------------------------
+% PROFESSIONAL EXPERIENCE
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{PROFESSIONAL EXPERIENCE \textcolor{black}{\hrulefill}}}{PROFESSIONAL EXPERIENCE}}\vspace{5pt}\\
+\textbf{Full Stack Developer} $|$ Securian Canada \hfill {Jan, 2022 - Present}\\
+\textbf{Ori} - A single-page web app used by banks like BMO to streamline operations.
+\vspace{-5pt}\begin{itemize}[leftmargin=15pt, itemsep=-5pt]
+    \item Effectively collaborated with Business Analysts, Product Owners, and Product Managers to create comprehensive Business Requirement Documents (BRDs).
+    \item Organized the web application project structure by dividing it into API, Application, Domain, and Infrastructure layers.
+    \item Integrated the application with major third-party providers like Canada Post, SharePoint, Equifax, and TransUnion, enhancing data integration capabilities, and partnered with Cumis Credit Insurance for quoting, streamlining the insurance quoting process.
+    \item Configured dozens of APIs using GraphQL, optimizing data handling and communication across the platform.
+    \item Developed over 50 RESTful APIs, interfacing with MSSQL databases using Microsoft EF Core and LINQ for CRUD operations, and wrote complex SQL queries for SQL Server databases.
+    \item Designed and implemented five scalable microservices using ASP.NET Core Web API and GraphQL, and deployed them to Azure Web App Services via Azure DevOps.
+    \item Utilized advanced C\# features to build high-performance applications, including multi-threading, exception handling, logging, and asynchronous function handling.
+    \item Configured global logging mechanisms in ASP.NET web applications using ILogger, and integrated logging with Azure Application Insights for troubleshooting and performance analysis.
+    \item Implemented API validation using the Fluent Validation library, enhancing API security.
+    \item Integrated Azure Application Insights into the frontend Angular application for enhanced monitoring and performance tracking.
+    \item Developed and tested UI components with Storybook, reducing UI bugs by 30\%, and improved reliability and stability through comprehensive Angular testing using Karma.
+    \item Integrated RESTful APIs with frontend applications for efficient data retrieval and synchronization.
+    \item Implemented ASP.NET Core Identity features for authentication, authorization, and access control, integrating OAuth2 and JWT token-based authorization.
+    \item Conducted comprehensive unit testing and integration testing for web applications using xUnit and NLog, ensuring high-quality code and robust software solutions. Created detailed test cases to validate functionalities and maintain a high level of application stability throughout the development process.
+    \item Developed insightful dashboards with Chart.js and D3.js, enhancing user experience.
+    \item Configured more than a dozen CI/CD pipelines in Azure DevOps for building, testing, scanning, releasing, and deploying applications/microservices to Azure Web Apps and Blob Storage.
+    \item Deployed .NET applications to production in Azure cloud environments, supporting production activities and collaborating with DevOps teams to improve deployment speed.
+    \item Implemented advanced source control branching strategies to deploy different application versions to production, optimizing cost management and infrastructure utilization.
+    \item Adhered to Agile methodology by participating in daily scrum meetings and utilizing JIRA for managing user stories and bug tracking, enabling effective collaboration with cross-functional teams and ensuring a smooth and transparent development workflow.
+\end{itemize}
+
+% NOVA
+\textbf{Nova} - Securian Canada insurance distribution platform used by major credit unions.
+\vspace{-5pt}\begin{itemize}[leftmargin=15pt, itemsep=-5pt]
+    \item Integrated Microsoft Authentication Library (MSAL) for secure authentication and authorization, achieving a 99.9\% authentication success rate.
+    \item Created an Azure function in C\# for document uploads to Azure Blob Storage using Azure SDK, improving handling efficiency by 50\%.
+    \item Established Angular state management using NgRx from scratch, reducing data retrieval times by 40\% and creating a more scalable architecture.
+    \item Implemented Angular UI components with Storybook, for isolated UI Component development and testing, which resulted in reducing UI bugs by 30\%.
+    \item Enhanced code quality and reduced review times by 30\% by writing out ESLint ruels for the Angular project.
+    \item Collaborated with Canada Life Credit Union for insurance quoting, extending the platform's functionality and reach.
+\end{itemize}
+
+% CREDITOR INSURANCE 
+\textbf{Creditor Insurance Discovery Tool} - A single-page web app used by banks like BMO to streamline operations.
+\vspace{-5pt}\begin{itemize}[leftmargin=15pt, itemsep=-5pt]
+      \item Designed dynamic Angular forms based on user interaction.
+      \item Implemented Adobe PDF SDK, Azure Blob Storage, and Functions for efficient PDF generation and data storage.
+      \item Expanded language support from 2 to 5 using Angular i18n, enhancing accessibility.
+      \item Developed a responsive and user-friendly interface using Angular Material and dynamic tooltips.
+      \item Improved code quality and reduced review times by 30\% through ESLint integration.
+\end{itemize}
+
+
+%-------------------------------------------------------------------------------
+% FREELANCE EXPERIENCE
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{FREELANCE EXPERIENCE \textcolor{black}{\hrulefill}}}{FREELANCE EXPERIENCE}}\vspace{5pt}\\
+\textbf{PixleForge Solutions} | Upwork Inc. \hfill {Marc, 2020 - Feb, 2022}
+\vspace{-5pt}\begin{itemize}[ leftmargin=15pt, itemsep=-5pt]
+      \item Collaborated closely with design and product teams, leveraging Angular's reactive forms and observables to enhance UX, resulting in a 25\% increase in user engagement.
+      \item Integrated RESTful interfaces with ASP.NET Web API endpoints, reducing API response time by 40\% and ensuring seamless frontend-backend communication.
+      \item Decomposed projects using Angular's modular architecture, improving project delivery timelines by 30\%.
+      \item Implemented features with Angular's dependency injection, reducing post-launch defects by 50\%.
+      \item Documented technical details using Angular's documentation generation tools and ASP.NET Core's logging capabilities, increasing development efficiency by 20\%.
+      \item Employed Angular's routing and state management features to improve system stability by 30\%.
+      \item Stayed updated with latest technologies, driving a 15\% increase in team productivity by exploring Angular and ASP.NET Core advancements.
+  \end{itemize}
+
+
+%-------------------------------------------------------------------------------
+% PERSONAL PROJECTS
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% ACADEMIC PROJECTS
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% EDUCATION
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{EDUCATION {\color{black}\hrulefill}}}{EDUCATION}}\vspace{5pt}\\
+\textbf{Diploma in Computer Programming} $|$ Seneca College $|$ GPA - 3.8 \hfill Jan, 2021 - Aug, 2022 \\
+\textbf{Course Highlights:}
+\vspace{-5pt}\begin{itemize}[leftmargin=15pt, itemsep=-5pt]
+  \item Developed object-oriented programming skills using C/C++
+  \item Manipulated data using SQL for efficient database management
+  \item Modeled, designed, and developed databases for business purposes
+  \item Engineered software and hardware systems for creating data communication networks
+  \item Applied principles of the Software Development Life Cycle (SDLC), Computer Networking, System Design, and UML
+  \item Authored shell scripts, utilized pipes and redirection for data manipulation, and defined patterns using regex
+  \item Practiced DevOps principles, including Source Control Management, Integration, Testing, Configuration Management, and Monitoring
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+% INTERESTS
+%-------------------------------------------------------------------------------
+\vspace{10pt}\fontMediumBold{\texorpdfstring{\textcolor{blue}{INTERESTES \textcolor{black}{\hrulefill}}}{INTERESTES}}\vspace{5pt}
+\vspace{-5pt}\begin{itemize}[leftmargin=15pt, itemsep=-5pt]
+  \item Experimenting with \textbf{cooking} techniques and creating new recipes.
+  \item Cultivating a variety of plants and maintaining a \textbf{garden}, currently growing Aloe Vera and Basil.
+  \item Solving complex problems in \textbf{mathematics}.
+  \item Exploring the principles and theories of \textbf{physics}.
+  \item Improving \textbf{typing} speed and accuracy.
+  \item Competing in multiplayer battleground games like \textbf{COD} and \textbf{PUBG}.
+  \item Learning and playing \textbf{musical instruments}, currently mastering the \textbf{kartal}.
+\end{itemize}
+\end{document}
