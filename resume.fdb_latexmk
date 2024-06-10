@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1718038118.02977 "/Users/thevedicdev/Developer/resume/resume.tex" "resume.pdf" "resume" 1718038118.7614 0
-  "/Users/thevedicdev/Developer/resume/resume.tex" 1718038117.8263 17327 ef728caade46d99a1670556ab7192246 ""
+["pdflatex"] 1718038856.24849 "/Users/thevedicdev/Developer/resume/resume.tex" "resume.pdf" "resume" 1718038858.45105 0
+  "/Users/thevedicdev/Developer/resume/resume.tex" 1718038856.04076 17043 04573ee495c71bbe96daab9476d30a45 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1529098226 3124 3813fd4c981d99822890a2861b0d274c ""
@@ -116,9 +116,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717757701.01146 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717757673 8221449 50f8bec8d5134c35f2569aaa27322254 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "resume.aux" 1718038118.68709 242 9dcc7f37be745cb6496c6fc887b0734a "pdflatex"
-  "resume.out" 1718038118.49437 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1718038117.8263 17327 ef728caade46d99a1670556ab7192246 ""
+  "resume.aux" 1718038858.16572 242 211ae73e5e510522492755cb527203ed "pdflatex"
+  "resume.out" 1718038857.68238 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1718038856.04076 17043 04573ee495c71bbe96daab9476d30a45 ""
   (generated)
   "resume.aux"
   "resume.log"

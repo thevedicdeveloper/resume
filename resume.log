@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  10 JUN 2024 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  10 JUN 2024 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -395,14 +395,14 @@ LaTeX Font Info:    ... okay on input line 105.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(20.0pt, 574.295pt, 20.0pt)
-* v-part:(T,H,B)=(20.0pt, 754.96999pt, 20.0pt)
+* v-part:(T,H,B)=(10.0pt, 774.96999pt, 10.0pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=574.295pt
-* \textheight=754.96999pt
+* \textheight=774.96999pt
 * \oddsidemargin=-52.26999pt
 * \evensidemargin=-52.26999pt
-* \topmargin=-89.26999pt
+* \topmargin=-99.26999pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -504,7 +504,7 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 158.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2] [3] (./resume.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -513,18 +513,18 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16524 strings out of 474116
- 268828 string characters out of 5743683
+ 16523 strings out of 474116
+ 268822 string characters out of 5743683
  1952187 words of memory out of 5000000
  38520 multiletter control sequences out of 15000+600000
  578128 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,8n,93p,1231b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,93p,1231b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on resume.pdf (3 pages, 121714 bytes).
+Output written on resume.pdf (2 pages, 121118 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  39425 words of extra memory for PDF output out of 42996 (max. 10000000)
 
